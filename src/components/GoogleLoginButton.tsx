@@ -8,7 +8,7 @@ const GoogleLoginButton = () => {
   const handleLogin = () => {
     setLoading(true);
     try {
-      window.location.assign('http://localhost:5000/api/auth/google');
+      window.location.assign(process.env.REACT_APP_BACKEND_URL + '/api/auth/google');
     } catch (error) {
       console.error(error);
       alert('Failed to redirect to Google login');
