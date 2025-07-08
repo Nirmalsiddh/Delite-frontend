@@ -54,7 +54,7 @@ const SignInForm = ({ switchToSignUp }: Props) => {
     setLoading(true);
 
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/verify-otp', {
+      const res = await axios.post(process.env.REACT_APP_BACKEND_URL + '/api/auth/verify-otp', {
         email,
         otp,
       });

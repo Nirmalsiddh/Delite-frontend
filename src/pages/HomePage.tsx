@@ -67,7 +67,7 @@ const HomePage = () => {
       </div>
 
       <footer className="homepage-footer">
-        <p>Made by Nirmal Siddh — 2025! </p>
+        <p>Made by Nirmal Siddh — 2025 </p>
       </footer>
     </div>
   );
