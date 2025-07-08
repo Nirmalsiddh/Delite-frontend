@@ -54,6 +54,7 @@ Create a `.env` in `frontend/`:
 
 ```bash
 
+VITE_BACKEND_URL=http://localhost:5000
 REACT_APP_GOOGLE_CLIENT_ID=your_google_client_id
 
 ```
